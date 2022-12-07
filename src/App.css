@@ -1,9 +1,15 @@
+*{
+    background-color: rgb(90, 4, 78);
+    font-family: 'Urbanist', sans-serif;
+}
+
 .container {
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
-    padding: 30px;
+    margin-left: 100px;
+    margin-left: 100px;
     color: black;
+    background-color: rgb(90, 4, 78);
 }
 
 .container .actions {
@@ -12,15 +18,23 @@
     align-items: center;
 }
 
+.actions{
+    color: white;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
 button.primary {
     cursor: pointer;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 500;
     border: 0;
-    border-radius: 5px;
-    background-color: rgb(10, 77, 157);
-    color: white;
+    border-radius: 25px;
+    background-color: #36FFB6;
+    color: black;
 }
 
 
@@ -32,11 +46,10 @@ button.danger {
     cursor: pointer;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight: 500;
-    border: 0;
-    border-radius: 5px;
-    background-color: #8d2020;
-    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: #36FFB6;
+    color: black;
 }
 
 @media (max-width: 1280px) {

@@ -1,0 +1,8 @@
+.grid-characters {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 50px;
+  justify-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
